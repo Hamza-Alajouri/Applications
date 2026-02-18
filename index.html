@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تطبيقاتي</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Tahoma, Arial;
+  background:#0f172a;
+  color:white;
+}
+
+header{
+  padding:25px;
+  text-align:center;
+  font-size:28px;
+  font-weight:bold;
+  background:#111827;
+}
+
+.container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+  padding:40px;
+}
+
+.card{
+  background:#1e293b;
+  border-radius:15px;
+  padding:20px;
+  text-align:center;
+  transition:0.3s;
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+  transform:translateY(-6px);
+}
+
+.card img{
+  width:100px;
+  height:100px;
+  border-radius:20px;
+  object-fit:cover;
+  margin-bottom:15px;
+}
+
+.card h2{
+  margin:10px 0;
+  font-size:20px;
+}
+
+.card p{
+  font-size:14px;
+  color:#cbd5e1;
+  min-height:60px;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 20px;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  font-size:14px;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#1d4ed8;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:#111827;
+  font-size:14px;
+  margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  جميع تطبيقاتي
+</header>
+
+<div class="container">
+
+  <!-- تطبيق 1 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="App">
+    <h2>اسم التطبيق الأول</h2>
+    <p>وصف مختصر عن التطبيق الأول وما يقدمه للمستخدم.</p>
+    <a href="رابط_التحميل_هنا.apk" class="btn" target="_blank">تحميل التطبيق</a>
+  </div>
+
+  <!-- تطبيق 2 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="App">
+    <h2>اسم التطبيق الثاني</h2>
+    <p>شرح بسيط عن التطبيق الثاني وخدماته.</p>
+    <a href="رابط_التحميل_هنا.apk" class="btn" target="_blank">تحميل التطبيق</a>
+  </div>
+
+  <!-- تطبيق 3 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/100" alt="App">
+    <h2>اسم التطبيق الثالث</h2>
+    <p>تفاصيل سريعة عن التطبيق الثالث.</p>
+    <a href="رابط_التحميل_هنا.apk" class="btn" target="_blank">تحميل التطبيق</a>
+  </div>
+
+</div>
+
+<footer>
+© 2026 جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
